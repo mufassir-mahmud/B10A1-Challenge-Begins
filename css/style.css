@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Azeret Mono";
+    font-family: "Azeret Mono", monospace;
 }
 .banner-container{
     background-image: url("../assets/Hero-bg.png");
@@ -201,4 +201,49 @@ margin: 30px auto;
 }
 .iframe-content iframe{
     border-radius: 16px;
+}
+
+.target-section{
+    width: 100%;
+    height: 462px;
+    margin-top: 70px;
+    margin-bottom: 111px;
+    
+}
+.target-section > .inspiration-content{
+    margin-bottom: 48px;
+}
+.skills-section{
+    display: flex;
+    gap: 24px;
+}
+.skill-box{
+    
+}
+.skill-content{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 364px;
+height: 299px;
+}
+.skill-content img{
+    width: 56px;
+    height: 56px;
+}
+.html-skill{
+    border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+}
+.css-skill{
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+.js-skill{
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
 }
